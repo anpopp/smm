@@ -66,6 +66,7 @@ form input {
     justify-content: space-around;
     align-items: center;
     width: 200px;
+    gap: 10%;
 }
 
 .select-collections {
