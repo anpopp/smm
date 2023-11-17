@@ -22,7 +22,14 @@
 table {
     text-align: center;
     padding: 20px 0px;
-    background: none;
+}
+
+table th{
+    background: wheat;
+}
+
+table td{
+    background: cornsilk;
 }
 
 table img {
