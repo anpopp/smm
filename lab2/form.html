@@ -3,6 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/header.css">
+        <link rel="stylesheet" href="./style/footer.css">
+        <link rel="stylesheet" href="./style/form.css">
         <title>Главная</title>
     </head>
     <body>
@@ -19,44 +22,74 @@
         <main>
             <h1>Форма обратной связи</h1>
             <form action>
-                <label for="name">ФИО</label>
-                <input type="text" id="name" placeholder="Введите ФИО" required>
-                <label for="phone">Телефон</label>
-                <input type="number" id="phone" placeholder="Введите телефон"
-                    required>
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Введите email"
-                    required>
-                <h3>Экспозиции к посещению</h3>
-                <label for="exposition-1">Экспозиция №1</label>
-                <input type="checkbox" id="exposition-1">
-                <label for="exposition-2">Экспозиция №2</label>
-                <input type="checkbox" id="exposition-2">
-                <label for="exposition-3">Экспозиция №3</label>
-                <input type="checkbox" id="exposition-3">
-                <label for="exposition-4">Экспозиция №4</label>
-                <input type="checkbox" id="exposition-4">
-                <label for="exposition-5">Экспозиция №5</label>
-                <input type="checkbox" id="exposition-5">
-                <label for="exposition-6">Экспозиция №6</label>
-                <input type="checkbox" id="exposition-6">
-                <label for="type-excursion">Вид экскурсии</label>
-                <select name="typeExcursion" id="type-excursion">
-                    <option value="guide">Экскурсовод</option>
-                    <option value="audioGuide">Аудио-гид</option>
-                    <option value="independentViewing">Самостоятельный просмотр</option>
-                </select>
-                <label for="visit-day">День посещения</label>
-                <select name="visitDay" id="visit-day">
-                    <option value="monday">Понедельник</option>
-                    <option value="wednesday">Среда</option>
-                    <option value="friday">Пятница</option>
-                </select>
-                <textarea name="message" id cols="30" rows="10"
-                    placeholder="Введите дополнительную информацию">
-                </textarea>
-                <input type="submit" value="Оформить визит">
-                <input type="reset" value="Очистить форму">
+                <div class="form-row">
+                    <label for="name">ФИО</label>
+                    <input type="text" id="name" class="input-text" placeholder="Введите ФИО"
+                        required>
+                </div>
+                <div class="form-row">
+                    <label for="phone">Телефон</label>
+                    <input type="text" id="phone" class="input-text"
+                        placeholder="Введите телефон"
+                        required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input-text" placeholder="Введите email"
+                        required>
+                </div>
+                <span>Экспозиции к посещению</span>
+                <div class="form-row">
+                    <label for="exposition-1">Экспозиция №1</label>
+                    <input type="checkbox" id="exposition-1">
+                </div>
+                <div class="form-row">
+                    <label for="exposition-2">Экспозиция №2</label>
+                    <input type="checkbox" id="exposition-2">
+                </div>
+                <div class="form-row">
+                    <label for="exposition-3">Экспозиция №3</label>
+                    <input type="checkbox" id="exposition-3">
+                </div>
+                <div class="form-row">
+                    <label for="exposition-4">Экспозиция №4</label>
+                    <input type="checkbox" id="exposition-4">
+                </div>
+                <div class="form-row">
+                    <label for="exposition-5">Экспозиция №5</label>
+                    <input type="checkbox" id="exposition-5">
+                </div>
+                <div class="form-row">
+                    <label for="exposition-6">Экспозиция №6</label>
+                    <input type="checkbox" id="exposition-6">
+                </div>
+                <div class="form-row">
+                    <label for="type-excursion">Вид экскурсии</label>
+                    <select name="typeExcursion" id="type-excursion">
+                        <option value="guide">Экскурсовод</option>
+                        <option value="audioGuide">Аудио-гид</option>
+                        <option value="independentViewing">Самостоятельный
+                            просмотр</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="visit-day">День посещения</label>
+                    <select name="visitDay" id="visit-day">
+                        <option value="monday">Понедельник</option>
+                        <option value="wednesday">Среда</option>
+                        <option value="friday">Пятница</option>
+                    </select>
+                </div>
+                <span>Дополнительная информация</span>
+                <div class="form-row">
+                    <textarea name="message" id cols="30" rows="10"
+                        placeholder="Введите дополнительную информацию">
+                    </textarea>
+                </div>
+                <div class="form-row">
+                    <input type="submit" value="Оформить визит" class="input-button">
+                    <input type="reset" value="Очистить форму" class="input-button">
+                </div>
             </form>
         </main>
         <footer>

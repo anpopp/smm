@@ -1,0 +1,38 @@
+/* Стили главной страницы */
+
+.first-screen_text_element{
+    display: block;
+    width: 70%;
+}
+
+.first-screen img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.first-screen_text {
+    width: 50%;
+    font-weight: bold;
+}
+
+.first-screen_text h1 span{
+    color: rgba(242, 196, 13,0.5);
+}
+
+table {
+    text-align: center;
+    padding: 20px 0px;
+    background: none;
+}
+
+table img {
+    width: 50%;
+}
+
+table th{
+    border-bottom: 1px solid black;
+}
+
+table td{
+    border-bottom: 1px solid black;
+}

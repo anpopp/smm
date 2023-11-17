@@ -1,0 +1,62 @@
+/* Стили формы */
+form {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    padding: 10px;
+}
+
+form label {
+    display: block;
+}
+
+form span {
+    display: block;
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form input {
+    margin: 10px 0px;
+}
+
+.input-text {
+    width: 50%;
+    padding: 5px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.input-text:focus {
+    border: 1px solid #b3b3b3
+}
+
+form select {
+    width: 50%;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+form textarea{
+    width: 50%;
+    background: none;
+    color: #b3b3b3;
+    border: none;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.input-button {
+    background: none;
+    border: none;
+    color: #f2c50e;
+    border-bottom: 1px solid #f2c50e;
+    margin: 5px;
+    transition: .5s all;
+}
+
+.input-button:hover {
+    cursor: pointer;
+    color: #292102;
+    border-bottom: 1px solid #292102;
+}

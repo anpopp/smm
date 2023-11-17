@@ -1,0 +1,26 @@
+/* Стили шапки */
+header img{
+    width: 60px;
+    padding: 10px;
+}
+
+header nav a{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 18px;
+    transition: .5s all;
+}
+
+header nav a:visited{
+    color: #000;
+}
+
+header nav a:hover{
+    color: #f2c50e;
+}
+
+header nav a:active{
+    transform: scale(1.2);
+}
