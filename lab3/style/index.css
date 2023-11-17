@@ -1,0 +1,67 @@
+/* Стили главной страницы */
+.first-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-screen h1 {
+    font-size: 40px;
+}
+
+.first-screen_text_element {
+    display: block;
+    width: 70%;
+}
+
+.first-screen_image {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.first-screen img {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.first-screen_text {
+    width: 30%;
+    font-weight: bold;
+}
+
+.first-screen_text h1 span {
+    color: rgba(242, 196, 13, 0.5);
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+table {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+table th {
+    background: wheat;
+}
+
+table td {
+    background: cornsilk;
+    padding: 0px 10px;
+}
+
+table img {
+    width: 50%;
+}
+
+table th {
+    border-bottom: 1px solid black;
+}
+
+table td {
+    border-bottom: 1px solid black;
+}

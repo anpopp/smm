@@ -1,0 +1,119 @@
+/* Стили формы */
+main {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-container {
+    width: 50%;
+}
+
+form {
+    width: 95%;
+    padding: 10px;
+}
+
+form label {
+    display: block;
+}
+
+form span {
+    display: block;
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form input {
+    margin: 10px 0px;
+}
+
+.text-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-inputs .form-row{
+    width: 80%;
+    margin: 10px 0px;
+}
+
+.input-text {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.input-text:focus {
+    border: 1px solid #b3b3b3
+}
+
+.exposition-collections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+
+.select-collections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+form select {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.text-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form textarea {
+    width: 80%;
+    background: none;
+    color: #b3b3b3;
+    border: none;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.input-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.input-button {
+    background: none;
+    border: none;
+    color: #be9b0e;
+    border-bottom: 1px solid #be9b0e;
+    margin: 5px;
+    transition: .5s all;
+}
+
+.input-button:hover {
+    cursor: pointer;
+    color: #292102;
+    border-bottom: 1px solid #292102;
+}
